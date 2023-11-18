@@ -1,5 +1,7 @@
 import openai
 import dotenv 
+import os
+
 
 # secrets for API keys
 env_path = os.path.join(os.path.dirname(__file__), '..', 'secrets', '.env')
